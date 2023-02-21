@@ -5,18 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>password generator wannabe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h2>Fidati di noi</h2>
-    <h1>Creiamo per te la tua miglior password</h1>
-    <h3>Sicura come un lucchetto rotto</h3>
+    <div class="hero container">
+        <h2>Fidati di noi</h2>
+        <h2 class="h2-spostato">Fidati di noi</h2>
+        <h1>Creiamo per te la tua miglior password</h1>
+        <h3>Inviolabile come il Wakanda</h3>
+        <h3 class="h3-spostato">Inviolabile come il Wakanda</h3>
 
-    <div>Visto che il tuo nome è: <span id="yourname"></span></div>
-    <div>Visto che il tuo cognome è: <span id="yoursurname"></span></div>
-    <div>Visto che il tuo colore preferito è: <span id="yourcolour"></span></div>
-    <div>CONGRATULAZIONI! La tua nuova, impenetrabile, password sarà <span id="yourpassword"></span></div>
-    
+    </div>
+    <div class="text-box container">
+        <div>Visto che il tuo nome è: <span id="yourname"></span></div>
+        <div>Visto che il tuo cognome è: <span id="yoursurname"></span></div>
+        <div>Visto che il tuo colore preferito è: <span id="yourcolour"></span></div>
+        <div id="congratulation">CONGRATULAZIONI!</div>
+        <div>La tua password <br> ineluttabile come <strong>Thanos</strong> <br> e che spacca come <em>Hulk</em> sarà: </div>
+        <span id="yourpassword"></span><a class="copy" href="#"><i class="fa-solid fa-copy"></i>copy</a>
+    </div>    
 
 
 

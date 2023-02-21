@@ -3,4 +3,104 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-family: 'Phudu', cursive;
+}
+body {
+    background-color: #a8a5fc7c;
+    padding-top: 20px;
+}
+.hero {
+    border: 5px #5865f2 solid;
+    border-radius: 30px;
+    position: relative;
+    height: 130px;
+    padding: 10px;
+    text-align: center;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+}
 
+h1 {
+    color: #202558;
+    font-size: 45px;
+    padding-top: 16px;
+}
+
+h2 {
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    font-size: 20px;
+}
+.h2-spostato {
+    color: #202558;
+    position: absolute;
+    top: 7px;
+    left: 24px;
+    font-size: 20px;
+}
+
+h3 {
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    font-size: 30px;
+}
+.h3-spostato {
+    color: #202558;
+    position: absolute;
+    bottom: 7px;
+    right: 24px;
+    font-size: 30px;
+}
+.text-box {
+    padding: 20px;
+    text-align: center;
+}
+.text-box div {
+    padding: 10px 0;
+    font-size: 30px;
+    color: #202558;
+    margin-bottom: 10px;
+}
+#congratulation {
+    color: white;
+    font-size: 25px;
+}
+#yourpassword {
+    border: 3px solid #131746;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 37px;
+}
+#yourname, #yoursurname, #yourcolour {
+    color: #131746;
+    text-decoration: underline;
+    font-size: 37px;
+}
+.copy {
+    margin-left: 20px;
+    color: #131746;
+    font-size: 13px;
+}
+.copy i {
+    margin-right: 5px;
+}
+strong {
+    color: purple;
+}
+em {
+    color: green;
+}
+
+@media screen and (max-width: 830px) {
+    h1 {
+        font-size: 30px;
+        padding-top: 25px;
+    }
+}
